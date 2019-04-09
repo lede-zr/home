@@ -116,8 +116,8 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">FutureIoan测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> zr</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-04-08 20:16:15</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:23.911000</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-04-09 20:34:10</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:23.542000</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 22，错误 22，通过率= 0.00%</p>
 
 <p class='description'>login</p>
@@ -168,14 +168,14 @@ function html_escape(s) {
     <div id='div_ft1_1' class="collapse in" align="left">
     <pre>
     
-ft1_1: 2019-04-08 20:16:15,459-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第1条用例：正确注册
-post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000401E9E8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_1: 2019-04-09 20:34:10,386-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第1条用例：正确注册
+post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000002669128&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -196,14 +196,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_2' class="collapse in" align="left">
     <pre>
     
-ft1_2: 2019-04-08 20:16:16,598-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第2条用例：错误的手机号
-post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004039E80&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_2: 2019-04-09 20:34:11,493-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第2条用例：错误的手机号
+post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F0F0B8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -224,14 +224,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_3' class="collapse in" align="left">
     <pre>
     
-ft1_3: 2019-04-08 20:16:17,706-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第3条用例：错误的密码
-post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003FD99B0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_3: 2019-04-09 20:34:12,589-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第3条用例：错误的密码
+post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003EA69B0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -252,14 +252,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_4' class="collapse in" align="left">
     <pre>
     
-ft1_4: 2019-04-08 20:16:18,806-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第4条用例：已注册的手机号
-post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004046A90&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_4: 2019-04-09 20:34:13,695-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第4条用例：已注册的手机号
+post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003EDAA20&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -280,14 +280,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_5' class="collapse in" align="left">
     <pre>
     
-ft1_5: 2019-04-08 20:16:19,910-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第5条用例：手机号为空
-post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000420B4E0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_5: 2019-04-09 20:34:14,801-INFO-log_msg.py-root-34-日志信息：=====正在测试register模块里面第5条用例：手机号为空
+post请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/register (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F21F60&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -308,14 +308,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_6' class="collapse in" align="left">
     <pre>
     
-ft1_6: 2019-04-08 20:16:21,011-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第6条用例：正确登录
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13321345684 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004049550&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_6: 2019-04-09 20:34:15,901-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第6条用例：正确登录
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13321345684 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F0B828&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -336,14 +336,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_7' class="collapse in" align="left">
     <pre>
     
-ft1_7: 2019-04-08 20:16:22,098-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第7条用例：错误的用户名
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=133 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000404B6D8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_7: 2019-04-09 20:34:17,002-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第7条用例：错误的用户名
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=133 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F18438&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -364,14 +364,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_8' class="collapse in" align="left">
     <pre>
     
-ft1_8: 2019-04-08 20:16:23,206-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第8条用例：错误的密码
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=1234&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003FDBEB8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_8: 2019-04-09 20:34:18,097-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第8条用例：错误的密码
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=1234&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F0BBA8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -392,14 +392,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_9' class="collapse in" align="left">
     <pre>
     
-ft1_9: 2019-04-08 20:16:24,300-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第9条用例：空密码
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=&amp;mobilephone=13387654321 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004039F60&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_9: 2019-04-09 20:34:19,198-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第9条用例：空密码
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=&amp;mobilephone=13387654321 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F0F240&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -420,14 +420,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft1_10' class="collapse in" align="left">
     <pre>
     
-ft1_10: 2019-04-08 20:16:25,399-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第10条用例：空用户名
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone= (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004049898&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft1_10: 2019-04-09 20:34:20,287-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第10条用例：空用户名
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone= (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F18278&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\register_cases.py", line 34, in test_register
+  File ".\future_3\test_cases\register_cases.py", line 34, in test_register
     resp = HttpRequest().http_request(method, url, param)
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -457,14 +457,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft2_1' class="collapse in" align="left">
     <pre>
     
-ft2_1: 2019-04-08 20:16:26,504-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第1条用例：未登录充值
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?mobilephone=13387654333&amp;amount=100 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003FD9F28&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft2_1: 2019-04-09 20:34:21,389-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第1条用例：未登录充值
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?amount=100&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003EDF470&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
+  File ".\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -485,14 +485,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft2_2' class="collapse in" align="left">
     <pre>
     
-ft2_2: 2019-04-08 20:16:27,611-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第2条用例：登录
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000000040387F0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft2_2: 2019-04-09 20:34:22,492-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第2条用例：登录
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F1B908&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
+  File ".\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -513,14 +513,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft2_3' class="collapse in" align="left">
     <pre>
     
-ft2_3: 2019-04-08 20:16:28,706-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第3条用例：登录充值
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?mobilephone=13387654333&amp;amount=100 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000404B400&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft2_3: 2019-04-09 20:34:23,590-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第3条用例：登录充值
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?amount=100&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F182E8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
+  File ".\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -541,14 +541,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft2_4' class="collapse in" align="left">
     <pre>
     
-ft2_4: 2019-04-08 20:16:30,360-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第4条用例：充值账号为空
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?mobilephone=&amp;amount=100 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000404B5F8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft2_4: 2019-04-09 20:34:24,900-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第4条用例：充值账号为空
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?amount=100&amp;mobilephone= (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F0B3C8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
+  File ".\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -569,14 +569,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft2_5' class="collapse in" align="left">
     <pre>
     
-ft2_5: 2019-04-08 20:16:31,457-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第5条用例：充值金额为空
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?mobilephone=13387654333&amp;amount= (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004038B70&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft2_5: 2019-04-09 20:34:26,005-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第5条用例：充值金额为空
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?amount=&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F1B7B8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
+  File ".\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -597,14 +597,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft2_6' class="collapse in" align="left">
     <pre>
     
-ft2_6: 2019-04-08 20:16:32,553-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第6条用例：充值金额大于50w
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?mobilephone=13387654333&amp;amount=600000 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000404B4A8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft2_6: 2019-04-09 20:34:27,108-INFO-log_msg.py-root-34-日志信息：=====正在测试recharge模块里面第6条用例：充值金额大于50w
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/recharge?amount=600000&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F186D8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
+  File ".\future_3\test_cases\recharge_cases.py", line 40, in test_recharge
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -634,14 +634,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft3_1' class="collapse in" align="left">
     <pre>
     
-ft3_1: 2019-04-08 20:16:33,655-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第1条用例：正确登录
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000000040397F0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft3_1: 2019-04-09 20:34:28,202-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第1条用例：正确登录
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003E94A20&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\loan_cases.py", line 47, in test_loan
+  File ".\future_3\test_cases\loan_cases.py", line 47, in test_loan
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -662,14 +662,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft3_2' class="collapse in" align="left">
     <pre>
     
-ft3_2: 2019-04-08 20:16:34,759-INFO-log_msg.py-root-34-日志信息：=====正在测试add_loan模块里面第2条用例：加标
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/loan/add?loanTerm=6&amp;biddingDays=10&amp;title=zr%E7%9A%84%E6%A0%87&amp;memberId=1123539&amp;amount=100000&amp;repaymemtWay=4&amp;loanDateType=0&amp;loanRate=10 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004038A58&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft3_2: 2019-04-09 20:34:29,292-INFO-log_msg.py-root-34-日志信息：=====正在测试add_loan模块里面第2条用例：加标
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/loan/add?amount=100000&amp;repaymemtWay=4&amp;loanTerm=6&amp;loanRate=10&amp;biddingDays=10&amp;memberId=1123539&amp;title=zr%E7%9A%84%E6%A0%87&amp;loanDateType=0 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F1B518&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\loan_cases.py", line 47, in test_loan
+  File ".\future_3\test_cases\loan_cases.py", line 47, in test_loan
     resp = HttpRequest().http_request(method, url, param,getattr(GetData,'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -693,9 +693,9 @@ NameError: name 'resp' is not defined
 ft3_3: Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\loan_cases.py", line 42, in test_loan
+  File ".\future_3\test_cases\loan_cases.py", line 42, in test_loan
     param = eval(get_data.replace(case['Params']))
-  File "F:\test_01\future_3\common\get_data.py", line 19, in replace
+  File ".\future_3\common\get_data.py", line 19, in replace
     value = getattr(GetData, key)
 AttributeError: type object 'GetData' has no attribute 'loanid'
 
@@ -725,14 +725,14 @@ AttributeError: type object 'GetData' has no attribute 'loanid'
     <div id='div_ft4_1' class="collapse in" align="left">
     <pre>
     
-ft4_1: 2019-04-08 20:16:35,859-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第1条用例：正确登录
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000004018BA8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft4_1: 2019-04-09 20:34:30,398-INFO-log_msg.py-root-34-日志信息：=====正在测试login模块里面第1条用例：正确登录
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&amp;mobilephone=13387654333 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003EE9A90&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\invest_cases.py", line 46, in test_invest
+  File ".\future_3\test_cases\invest_cases.py", line 46, in test_invest
     resp = HttpRequest().http_request(method, url, param, getattr(GetData, 'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -753,14 +753,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft4_2' class="collapse in" align="left">
     <pre>
     
-ft4_2: 2019-04-08 20:16:36,967-INFO-log_msg.py-root-34-日志信息：=====正在测试Invets模块里面第2条用例：正常投资
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/bidLoan?password=123456&amp;amount=100&amp;loanId=19575&amp;memberId=1123539 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000401E9E8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft4_2: 2019-04-09 20:34:31,503-INFO-log_msg.py-root-34-日志信息：=====正在测试Invets模块里面第2条用例：正常投资
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/bidLoan?amount=100&amp;password=123456&amp;memberId=1123539&amp;loanId=19575 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F18898&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\invest_cases.py", line 46, in test_invest
+  File ".\future_3\test_cases\invest_cases.py", line 46, in test_invest
     resp = HttpRequest().http_request(method, url, param, getattr(GetData, 'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 
@@ -781,14 +781,14 @@ NameError: name 'resp' is not defined
     <div id='div_ft4_3' class="collapse in" align="left">
     <pre>
     
-ft4_3: 2019-04-08 20:16:38,268-INFO-log_msg.py-root-34-日志信息：=====正在测试Invets模块里面第3条用例：不输入金额
-get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/bidLoan?password=123456&amp;amount=&amp;loanId=19575&amp;memberId=1123539 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000000000404B5F8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+ft4_3: 2019-04-09 20:34:32,829-INFO-log_msg.py-root-34-日志信息：=====正在测试Invets模块里面第3条用例：不输入金额
+get请求出错了：HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/bidLoan?amount=&amp;password=123456&amp;memberId=1123539&amp;loanId=19575 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003F0B898&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 Traceback (most recent call last):
   File "F:\Python34\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "F:\test_01\future_3\test_cases\invest_cases.py", line 46, in test_invest
+  File ".\future_3\test_cases\invest_cases.py", line 46, in test_invest
     resp = HttpRequest().http_request(method, url, param, getattr(GetData, 'COOKIE'))
-  File "F:\test_01\future_3\common\http_request.py", line 31, in http_request
+  File ".\future_3\common\http_request.py", line 31, in http_request
     return resp
 NameError: name 'resp' is not defined
 

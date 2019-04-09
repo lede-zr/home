@@ -3,7 +3,8 @@
 # @Author : zr
 # @Email : 429082323@qq.com
 # @File : run.py.py
-
+import sys
+sys.path.append('./')
 import unittest
 import HTMLTestRunnerNew
 from future_3.test_cases import register_cases,recharge_cases,loan_cases,invest_cases
